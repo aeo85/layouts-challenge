@@ -1,0 +1,103 @@
+body {
+  font-family: helvetica; sans-serif;
+  background-color: #f6f6f6;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
+header, section, aside, footer {
+  background-color: #e8e8e8;
+  margin-bottom: 2%;
+}
+
+header {
+  height: 100px;
+	width: 100%;
+  margin-bottom: 2%;
+}
+
+h1 {
+  font-size: 30px;
+  color: deeppink;
+  float: left;
+  padding: 0px 20px 0px 20px;
+  margin-top: 32px;
+}
+
+.top{
+  float: right;
+  display: inline;
+  list-style: none;
+  font-size: 14px;
+  color: white;
+  padding: 22px;
+  margin: 12px;
+  background-color: deeppink;
+
+}
+
+h2 {
+  font-size: 18px;
+  letter-spacing: .0625em;
+}
+
+section {
+	float: left;
+	height: 20em;
+	width: 60%;
+  padding: 10px;
+}
+
+button {
+  background-color: lightpink;
+  font-size: 14px;
+  border: 1px solid darkgray;
+}
+
+aside {
+	height: 20em;
+	width: 14%;
+  padding: 10px;
+}
+
+#left {
+	float: left;
+	margin-right: 2%;
+}
+
+#middle {
+  line-height: 28px;
+}
+
+#right {
+	float: right;
+	margin-left: 2%;
+}
+
+.rightside {
+  font-size: 14px;
+  list-style: none;
+  border-bottom: 1px solid darkgray;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.leftside {
+  font-size: 14px;
+  list-style: none;
+  border-bottom: 1px solid darkgray;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  clear: both;
+	height: 50px;
+	width: 100%;
+  padding-top: 32px;
+}
